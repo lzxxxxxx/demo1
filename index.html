@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+
+	<body>
+		<div class="mui-content">
+		    <div id="index" class="mui-control-content mui-active">
+			    <div class="index-header">
+			    	<div class="mui-input-row mui-search">
+			    	    <input type="search" class="mui-input-clear" placeholder="搜索家庭医生">
+			    	</div>
+			    </div>
+			    <div class="index-picture"><img src="image/banner4.jpg"/></div>
+			    <div class="index-content">
+			    	<ul>
+			    		<li>1</li>
+			    		<li>2</li>
+			    		<li>3</li>
+			    		<li>4</li>
+			    		<li>5</li>
+			    		<li>1</li>
+			    	</ul>
+			    </div>
+			</div>
+			<div id="consult" class="mui-control-content ">
+				<div class="title">这是div模式选项卡中的第2个子页面.</div>
+				<div class="title">何谓div模式的选项卡？
+					其实就是通过DIV模拟一个独立页面，通过DIV的显示、隐藏模拟不同页面的切换，典型的SPA模式；</div>
+				<div class="title">
+					这种模式适合简单业务系统，因为每个选项卡内容要写在一个DIV中，
+					若逻辑复杂，会导致当前页面DOM结构繁杂，造成webview响应缓慢，甚至崩溃；
+					因此若系统较复杂，需要下拉刷新等操作，推荐使用webview模式的选项卡；</div>
+			</div>
+			<div id="community" class="mui-control-content ">
+				<div class="title">这是div模式选项卡中的第3个子页面.</div>
+				<div class="title">何谓div模式的选项卡？
+					其实就是通过DIV模拟一个独立页面，通过DIV的显示、隐藏模拟不同页面的切换，典型的SPA模式；</div>
+				<div class="title">
+					这种模式适合简单业务系统，因为每个选项卡内容要写在一个DIV中，
+					若逻辑复杂，会导致当前页面DOM结构繁杂，造成webview响应缓慢，甚至崩溃；
+					因此若系统较复杂，需要下拉刷新等操作，推荐使用webview模式的选项卡；</div>
+			</div>
+			<div id="person" class="mui-control-content ">
+				<div class="title">这是div模式选项卡中的第4个子页面.</div>
+				<div class="title">何谓div模式的选项卡？
+					其实就是通过DIV模拟一个独立页面，通过DIV的显示、隐藏模拟不同页面的切换，典型的SPA模式；</div>
+				<div class="title">
+					这种模式适合简单业务系统，因为每个选项卡内容要写在一个DIV中，
+					若逻辑复杂，会导致当前页面DOM结构繁杂，造成webview响应缓慢，甚至崩溃；
+					因此若系统较复杂，需要下拉刷新等操作，推荐使用webview模式的选项卡；</div>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active" href="#index">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="#consult">
+				<span class="mui-icon mui-icon-email"></span>
+				<span class="mui-tab-label">咨询</span>
+			</a>
+			<a class="mui-tab-item" href="#community">
+				<span class="mui-icon mui-icon-gear"></span>
+				<span class="mui-tab-label">社区圈</span>
+			</a>
+			<a class="mui-tab-item" href="#person">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+		</script>
+	</body>
+
+</html>

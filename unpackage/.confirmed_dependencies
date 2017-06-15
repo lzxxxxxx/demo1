@@ -1,0 +1,18 @@
+{
+	"index.html": {
+		"resources": [
+			"indexsub.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"image/banner4.jpg",
+			"css/index.css"
+		],
+		"refer": [
+			"indexsub.html",
+			"community.html",
+			"consult.html",
+			"person.html"
+		]
+	}
+}
